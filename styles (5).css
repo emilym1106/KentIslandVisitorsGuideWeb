@@ -1,0 +1,84 @@
+body{
+  padding: 25px;
+  background-color: #E1D4C7;
+  margin: 0px;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.title {
+	color: #1122AA;
+	font-size: 40px;
+	font-family: 'Lucida Handwriting';
+	font-weight: bold;
+	text-align: right;
+	padding-top: 10px;
+	padding-bottom: 150px;
+	padding-right: 20px;
+}
+
+.background1 {
+  background-image: url('https://uploads.onecompiler.io/43a6aaqsh/43j6gxt86/kibeach.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1500px 400px;
+  
+}
+
+.flex-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+
+#name {
+  padding: 10px;
+}
+
+table, th{
+  padding: 15px;
+}
+
+#darkmodebutton {
+  padding: 10px;
+  color: #FFFFFF;
+  background-color: #1122AA;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+#imagepadding {
+  padding: 30px;
+}
+
+/* navigation bar */
+.navbar {
+  background-color: #1122AA;
+  overflow: hidden
+  
+}
+
+.navbar a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #AFF8CB;
+  color: #1122AA;
+}
+
+.navbar a:active {
+  background-color: #77A396;
+  color: #1122AA;
+}

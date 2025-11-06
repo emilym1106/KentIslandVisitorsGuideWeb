@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kent Island Travel Guide</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mrs+Sheppards&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- navigation bar-->
+      <div class="navbar">
+         <a class="active" href="#introduction">Introduction</a>
+         <a href="#location">Location</a>
+         <a href="#placestostay">Places to Stay</a>
+         <a href="#entertainment">Entertainment</a>
+         <button id="darkmodebutton" onclick="darkMode()">Toggle Dark Mode</button>
+      </div>
+      
+     <!-- content on top of the background image-->
+      <div class="background1">
+        <h2 class="title">Kent Island, Maryland</h2>
+          <script src="script.js"></script>
+      </div>
+     
+      <!-- history and introduction to kent island-->
+      
+      <h3 id="introduction">History</h3>
+      <p>Kent Island was established in 1631 and was only accessible by boat until 1964 when the first Chesapeake Bay Bridge was built. Kent Island is known for its abundance of crabs, fish, and other shellfish such as oysters, and nearly its entire purpose years ago was for the oyster business. Today, Kent Island is still home to many brackish sea creatures and now many people outside of that industry as well. It is home to historic Stevensville and Chester, and connects to the rest of the Eastern shore through the Kent Narrows and the Western shore by the Bay Bridge.</p>
+      
+      <!-- Information about location-->
+      <h3 id="location"> Why is Kent Island the perfect travel location?</h3>
+        <ul>
+          <li>Home to Brackish water: the perfect combination between fresh and salty</li>
+          <li>Has the ambiance of a coastal town without you having to drive an extra 2 hours to the coast</li>
+          <li>Home to small, more private beaches</li>
+          <li>Has a lot of rich history with oysters and crabs that visitors get to learn about</li>
+        </ul>
+        <table>
+          <tr>
+            <th>Other Popular Destinations</th>
+            <th>Distance from Kent Island</th>
+          </tr>
+          <tr>
+            <td>Assateage, Virginia</td>
+            <td>106 miles</td>
+          </tr>
+          <tr>
+            <td>Annapolis, Maryland</td>
+            <td>19 miles</td>
+          </tr>
+          <tr>
+            <td>Baltimore, Maryland</td>
+            <td>47 miles</td>
+          </tr>
+          <tr>
+            <td>Washington, DC</td>
+            <td>47 miles</td>
+          </tr>
+          <tr>
+            <td>Chesapeake Bay Bridge</td>
+            <td> < 1 mile</td>
+          </tr>
+        </table>
+        
+        <!-- form to insert name -->
+        <p> Kent Island is waiting for... </p>
+        <p id="output"></p>
+        <form>
+          <label for="name">Your name:</label>
+          <input type="text" id="name" name="name">
+          <button type="button" onclick="addName()">Submit</button>
+        </form>
+        
+        <img id="imagepadding" src="https://www.chesapeakebaymagazine.com/wp-content/uploads/2021/04/bay-bridge-boat-show-aerial.jpg" alt="marina" height="200px" width="300px">
+        
+        
+        <!--places to stay section-->
+      <h3 id="placestostay">Hotels, Inns, and More: all of the best places to rest your head during your stay</h3>
+        <ul>
+          <li>The Inn at the Chesapeake Bay Beach Club</li>
+          <li>Hilton Garden Inn</li>
+          <li>Hyatt Place, Kent Narrows</li>
+        </ul>
+        
+        <div class="flex-container">
+           <div><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/e4/d4/19/the-inn-at-chesapeake.jpg?w=700&h=-1&s=1" alt="theinn" height="200" width="250"></div>
+            <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpnApWjx3ARPkdKLYy6XpsYjCznM9PBakGKA&s" alt="hilton"></div>
+           <div><img src="https://assets.hyatt.com/content/dam/hyatt/hyattdam/images/2023/06/30/0922/BWIZK-P0046-Exterior-Dock.jpg/BWIZK-P0046-Exterior-Dock.16x9.jpg" alt="hyattplace" height="200" width"200"></div>
+        </div>
+        
+        <!--entertainment section-->
+      <h3 id="entertainment">Activities and Entertainment on the island</h3>
+        <ul>
+          <li>Restaurants in the Kent Narrows such as Red Eyes Dock Bar and The Jetty</li>
+          <li>At Castle Marina, visitors can rent boats for the day to go explore the waters!</li>
+          <li>Cult Classic always has fun events going on</li>
+        </ul>
+  </body>
+</html>
